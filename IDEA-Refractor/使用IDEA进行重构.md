@@ -3,6 +3,7 @@
 IDEA 为重构代码提供了很好的支持。相关阅读：
 
 1. https://www.yasinshaw.com/articles/18
+2. https://www.jetbrains.com/help/idea/encapsulate-fields.html?keymap=secondary_macos
 
 **F6:** 移动类或者方法的位置
 
@@ -23,7 +24,7 @@ IDEA 为重构代码提供了很好的支持。相关阅读：
 
 ## 使用IDEA进行重构
 
-我们在使用 IDEA 进行重构之前，先介绍一个方便我们进行重构的快捷键：`ctrl+t(mac)/ctrl+shift+alt+t`，使用这个快捷键可以快速调出常用重构的选项，如下图所示：
+我们在使用 IDEA 进行重构之前，先介绍一个方便我们进行重构的快捷键：`ctrl+t(mac)/ctrl+shift+alt+t`（如果忘记快捷键的话，鼠标右键也能找到重构选项），使用这个快捷键可以快速调出常用重构的选项，如下图所示：
 
 ![](./pictures/refractor-help.png)
 
