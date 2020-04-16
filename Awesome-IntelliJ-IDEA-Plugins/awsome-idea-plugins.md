@@ -1,19 +1,14 @@
 [TOC]
 
-大家好，我是Guide哥，这篇文章中我会介绍一些Java工程师必备的IDEA插件，我会将我整理的这些插件同步到： 上去，方便日后更新以及查阅。
+大家好，我是Guide哥，这篇文章中我会介绍10个非常不错的IDEA插件以及它们常见功能的使用方法。
 
-备选标题：
-
-1. 第一弹！安排！安利10个让你爽到爆的IDEA必备插件！
-2. 不吹不黑！使用IDEA必备的几个插件！
-
-## IDEA必装插件英雄榜
+>👉 **注意：这只是第一弹，后面的文章中，我会继续推荐一些我在工作中必备的 IDEA 插件以及他们的使用方法。**
 
 ### IDE Features Trainer—IDEA交互式教程
 
-有了这个插件之后，你可以在 IDE 内部以交互方式学习IDEA最常用的快捷方式和最基本功能。非常非常非常方便！强烈建议大家安装一个，尤其是刚开始使用IDEA的朋友。	
+**有了这个插件之后，你可以在 IDE 中以交互方式学习IDEA最常用的快捷方式和最基本功能。** 非常非常非常方便！强烈建议大家安装一个，尤其是刚开始使用IDEA的朋友。	
 
-当我们安装了这个插件之后，你会发现我们的IDEA 编辑器的右边多了一个“Learn”的选项，我们点击这个选项就可以看到如下界面。
+当我们安装了这个插件之后，你会发现我们的IDEA 编辑器的右边多了一个“**Learn**”的选项，我们点击这个选项就可以看到如下界面。
 
 ![](./pictures/IDE-Features-Trainer1.png)
 
@@ -25,7 +20,7 @@
 
 专为 RESTful 服务开发而设计的插件，有了它之后，你可以：
 
-1.**根据 URL 直接跳转到对应的方法定义 (Windows: `Ctrl \` or `Ctrl Alt N`  Mac:`Command \` or `Command  Alt N`  )并且提供了一个 Services tree 的可视化显示窗口。** 如下图所示:
+1.**根据 URL 直接跳转到对应的方法定义 (Windows: `ctrl+\` or `ctrl+alt+n`  Mac:`command+\` or `command+alt+n`  )并且提供了一个 Services tree 的可视化显示窗口。** 如下图所示:
 
 ![](./pictures/RestfulToolkit1.png)
 
@@ -57,13 +52,13 @@
 
 ### Key Promoter X—快捷键
 
-相信我！这一定是IDEA必备的一个插件。它的功能主要是在一些你本可以用使用快捷键操作的地方提醒你用快捷键操作。比如我直接点击tab栏下的菜单打开 Version Control 的话，这个插件就会提示我说你可以用快捷键 `Command+9`或者`Shift+Command+9`打开，如下图所示：
+相信我！这一定是IDEA必备的一个插件。**它的功能主要是在一些你本可以使用快捷键操作的地方提醒你用快捷键操作。** 比如我直接点击tab栏下的菜单打开 Version Control(版本控制) 的话，这个插件就会提示我说你可以用快捷键 `command+9`或者`shift+command+9`打开，如下图所示：
 
 ![](./pictures/Key-Promoter-X1.png)
 
-除了这个很棒的功能之外，它还有一个功能我觉得非常棒，那就是展示出哪些快捷键你使用的次数最多！超级赞！！！
+**除了这个很棒的功能之外，它还有一个功能我觉得非常棒，那就是展示出哪些快捷键你使用的次数最多！超级赞！！！**
 
-*Guide哥：快捷键真的很重要！我在大学的时候没注意，入职之后，每次看着同事们花里胡哨的快捷键操作，咔咔咔很快就完成了某个操作，我才深深意识到它的重要性。不夸张的说，你用IDEA开发，常用的快捷键不熟悉的话，效率至少降低 30%。*
+*Guide哥：快捷键真的很重要！入职之后，每次看着同事们花里胡哨的快捷键操作，咔咔咔很快就完成了某个操作，我才深深意识到它的重要性。不夸张的说，你用IDEA开发，常用的快捷键不熟悉的话，效率至少降低 30%。*
 
 ![](./pictures/Key-Promoter-X2.png)
 
@@ -71,7 +66,7 @@
 
 ### Presentation Assistant—快捷键展示
 
-安装这个插件之后，你用键盘快捷键所做的操作都会被展示出来，非常适合自己在录制视频或者给别人展示代码的时候使用。比如我使用快捷键 `Command+9`打开 Version Control ，使用了这个插件之后的效果如下图所示：
+安装这个插件之后，你用键盘快捷键所做的操作都会被展示出来，非常适合自己在录制视频或者给别人展示代码的时候使用。比如我使用快捷键 `command+9`打开 Version Control ，使用了这个插件之后的效果如下图所示：
 
 ![](./pictures/Presentation-Assistant.gif)
 
@@ -113,31 +108,33 @@ Codota 插件的基础功能都是免费的。你的代码也不会被泄露，�
 
 上述提到的开发手册也就是在Java开发领域赫赫有名的《阿里巴巴Java开发手册》。
 
-比如我们按照下面的方式去创建线程池的话，这个插件就会帮我们检测出来,如下图所示。
+你还可以手动配置相关 inspection规则：
+
+![](./pictures/p3c/Alibaba-Java-Code-Guidelines3.png)
+
+这个插件会实时检测出我们的代码不匹配它的规则的地方，并且会给出修改建议。比如我们按照下面的方式去创建线程池的话，这个插件就会帮我们检测出来,如下图所示。
 
 ![](./pictures/p3c/Alibaba-Java-Code-Guidelines1.png)
 
-这个可以对应上 《阿里巴巴Java开发手册》 这本书的下面这部分关于创建线程池的方式说明。
+这个可以对应上 《阿里巴巴Java开发手册》 这本书关于创建线程池的方式说明。
 
-![](./pictures/阿里巴巴开发手册-线程池创建.png)
+![](./pictures/p3c/阿里巴巴开发手册-线程池创建.png)
 
 ### GsonFormat+RoboPOJOGenerator—JSON转类对象
 
 这个插件可以根据Gson库使用的要求,将JSONObject格式的String 解析成实体类。
 
-ps:这个插件好像还是一个国人写的。
-
-这个插件使用起来非常简单，我们新建一个类，然后在类中使用快捷键 **Option + s**(Mac)或**Alt + s** (win)调出操作窗口（**必须在类中使用快捷键才有效**），如下图所示。
+这个插件使用起来非常简单，我们新建一个类，然后在类中使用快捷键 `option + s`(Mac)或`alt + s` (win)调出操作窗口（**必须在类中使用快捷键才有效**），如下图所示。
 
 ![](./pictures/GsonFormat2.gif)
 
-不过这个插件已经很久没有更新了，可能会因为IDEA的版本问题有一些小Bug。而且，这个插件无法将JSON转换为Kotlin（这个其实无关痛痒，IDEA自带的就有Java转Kotlin的功能）。 
+这个插件是一个国人几年前写的，不过已经很久没有更新了，可能会因为IDEA的版本问题有一些小Bug。而且，这个插件无法将JSON转换为Kotlin（这个其实无关痛痒，IDEA自带的就有Java转Kotlin的功能）。 
 
 ![](./pictures/GsonFormat1.png)
 
-另外一个与之相似的插件是**：RoboPOJOGenerator** ，这个插件的更新频率比较快。
+另外一个与之相似的插件是 **：RoboPOJOGenerator** ，这个插件的更新频率比较快。
 
-*File-> new -> Generate POJO from JSON*
+`File-> new -> Generate POJO from JSON`
 
 ![](./pictures/RoboPOJOGenerator1.png)
 
@@ -196,3 +193,6 @@ ps:这个插件好像还是一个国人写的。
 我之前有一个项目组的测试名字是驼峰这种形式:`ShouldReturnTicketWhenRobotSaveBagGiven1LockersWith2FreeSpace` 。但是，使用驼峰形式命名测试方法的名字不太明显，一般建议用下划线_的形式：`should_return_ticket_when_robot_save_bag_given_1_lockers_with_2_free_space`
 
 如果我们不用这个插件，而是手动去一个一个改的话，工作量想必会很大，而且正确率也会因为手工的原因降低。
+
+> 👉 **注意：这只是第一弹，后面的文章中，我会继续推荐一些我在工作中必备的 IDEA 插件以及他们的使用方法。**
+
