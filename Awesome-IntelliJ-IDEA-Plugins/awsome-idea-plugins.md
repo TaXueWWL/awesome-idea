@@ -4,14 +4,8 @@
 
 备选标题：
 
-1. 安排！安利几个让你爽到爆的IDEA必备插件！
+1. 第一弹！安排！安利10个让你爽到爆的IDEA必备插件！
 2. 不吹不黑！使用IDEA必备的几个插件！
-
-
-
-可选标题：10个让你爽到爆的IDEA插件！
-
-前言：大家好，我是Guide哥！这篇文章介绍一下我常用的IDEA插件，网上都有这么多推荐的了，我为什么还要再推荐一篇呢？因为，我觉得我这篇更好。哈哈哈！太真实了~~~
 
 ## IDEA必装插件英雄榜
 
@@ -39,7 +33,7 @@
 
 ![](./pictures/RestfulToolkit2.png)
 
-**4.在请求方法上添加了有用功能: 复制生成 URL;,复制方法参数...**
+**4.在请求方法上添加了有用功能: 复制生成 URL、复制方法参数...**
 
 我们选中的某个请求对应的方法然后右击，你会发现多了这样几个选项。我们选择`Generate & Copy Full URL`，这样你就把整个请求的路径复制下来了：`http://localhost:9333/api/users?pageNum=1&pageSize=1` 。
 
@@ -161,14 +155,44 @@ ps:这个插件好像还是一个国人写的。
 
 ![](./pictures/Statistic2.png)
 
-### CheckStyle—代码格式检查
+### Translation-必备的翻译插件
 
-这个插件的作用主要是为了规范代码格式比如说项目中一行代码最长是多少、项目中有没有无用的引用等等。非常实用！
+有了这个插件之后，你再也不用在编码的时候打开浏览器查找某个单词怎么拼写、某句英文注释什么意思了。
 
-一般情况下我们会在项目中配置 CheckStyle，并且自定义规则，然后再配置一个Commit 的 Git 钩子，这样我们在Commit代码的时候就会跑一遍 CheckStyle，看看项目代码的格式有问题不。
+并且，这个插件支持多种翻译源：
 
-这个插件的作用主要是帮助我们定位问题，示例如下：
+1. Google 翻译
+2. Youdao 翻译
+3. Baidu 翻译
 
-我们使用一个自定义的规则，然后运行 CheckStyle  ，可以看到这个插件就帮我们找到有一个无用的 import。
+除了翻译功能之外还提供了语音朗读、单词本等实用功能。这个插件的Github地址是：[https://github.com/YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) （貌似是国人开发的，很赞）。
 
-![](./pictures/check-style.png)
+**使用方法很简单！选中你要翻译的单词或者句子，使用快捷键 `command+ctrl+u(mac)` / `shift+ctrl+y(win/linux)`** （如果你忘记了快捷的话，鼠标右键操作即可！）
+
+![](./pictures/translation/translation1.jpg)
+
+**如果需要快速打开翻译框，使用快捷键`command+ctrl+i(mac)`/`ctrl + shift + o(win/linux)`**
+
+![](./pictures/translation/translation2.png)
+
+如果你需要将某个重要的单词添加到生词本的话，只需要点击单词旁边的收藏按钮即可！
+
+### CamelCase-多种命名格式之间切换
+
+非常有用！这个插件可以实现包含6种常见命名格式之间的切换。并且，你还可以对转换格式进行相关配置（转换格式），如下图所示：
+
+![](./pictures/camel-case/camel-case1.png)
+
+有了这个插件之后，你只需要使用快捷键 `shift+option+u(mac)` / `shift+alt+u` 对准你要修改的变量或者方法名字，就能实现在多种格式之间切换了，如下图所示：
+
+![](./pictures/camel-case/camel-case2.gif)
+
+如果你突然忘记快捷键的话，可以直接在IDEA的菜单栏的 Edit 部分找到。
+
+![](./pictures/camel-case/camel-case3.png)
+
+使用这个插件对开发效率提升高吗？拿我之前项目组的情况举个例子：
+
+我之前有一个项目组的测试名字是驼峰这种形式:`ShouldReturnTicketWhenRobotSaveBagGiven1LockersWith2FreeSpace` 。但是，使用驼峰形式命名测试方法的名字不太明显，一般建议用下划线_的形式：`should_return_ticket_when_robot_save_bag_given_1_lockers_with_2_free_space`
+
+如果我们不用这个插件，而是手动去一个一个改的话，工作量想必会很大，而且正确率也会因为手工的原因降低。
