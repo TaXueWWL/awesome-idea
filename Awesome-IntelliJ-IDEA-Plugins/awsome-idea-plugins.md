@@ -1,8 +1,23 @@
-[TOC]
-
 大家好，我是Guide哥，这篇文章中我会介绍10个非常不错的IDEA插件以及它们常见功能的使用方法。
 
 >👉 **注意：这只是第一弹，后面的文章中，我会继续推荐一些我在工作中必备的 IDEA 插件以及他们的使用方法。**
+
+**目录：**
+
+<!-- TOC -->
+
+- [IDE Features Trainer—IDEA交互式教程](#ide-features-traineridea%e4%ba%a4%e4%ba%92%e5%bc%8f%e6%95%99%e7%a8%8b)
+- [RestfulToolkit—RESTful服务开发](#restfultoolkitrestful%e6%9c%8d%e5%8a%a1%e5%bc%80%e5%8f%91)
+- [Key Promoter X—快捷键](#key-promoter-x%e5%bf%ab%e6%8d%b7%e9%94%ae)
+- [Presentation Assistant—快捷键展示](#presentation-assistant%e5%bf%ab%e6%8d%b7%e9%94%ae%e5%b1%95%e7%a4%ba)
+- [Codota—代码智能提示](#codota%e4%bb%a3%e7%a0%81%e6%99%ba%e8%83%bd%e6%8f%90%e7%a4%ba)
+- [Alibaba Java Code Guidelines—阿里巴巴 Java 代码规范](#alibaba-java-code-guidelines%e9%98%bf%e9%87%8c%e5%b7%b4%e5%b7%b4-java-%e4%bb%a3%e7%a0%81%e8%a7%84%e8%8c%83)
+- [GsonFormat+RoboPOJOGenerator—JSON转类对象](#gsonformatrobopojogeneratorjson%e8%bd%ac%e7%b1%bb%e5%af%b9%e8%b1%a1)
+- [Statistic—项目信息统计](#statistic%e9%a1%b9%e7%9b%ae%e4%bf%a1%e6%81%af%e7%bb%9f%e8%ae%a1)
+- [Translation-必备的翻译插件](#translation-%e5%bf%85%e5%a4%87%e7%9a%84%e7%bf%bb%e8%af%91%e6%8f%92%e4%bb%b6)
+- [CamelCase-多种命名格式之间切换](#camelcase-%e5%a4%9a%e7%a7%8d%e5%91%bd%e5%90%8d%e6%a0%bc%e5%bc%8f%e4%b9%8b%e9%97%b4%e5%88%87%e6%8d%a2)
+
+<!-- /TOC -->
 
 ### IDE Features Trainer—IDEA交互式教程
 
